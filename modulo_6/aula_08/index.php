@@ -26,6 +26,16 @@ $array2 = array("chave1"=>"ourto valor","chave3" => "valor3", "chave4"=>"valor4"
 print_r(array_intersect_key($array1,$array2));
 // Retorna chave1 uma vez que existe uma chave em comum
 
+echo '<br>';
+
+$arr = ['<p>Paulo</p>', 'José','<h1>Terra Duque</h1>'];
+
+print_r($arr);
+
+echo '<br>';
+
+// artay map serve para aplicar uma função em todos os valores do array
+print_r(array_map('strip_tags',$arr));    //strip_tags => remove todo o código HTML
 
 
 ?>
