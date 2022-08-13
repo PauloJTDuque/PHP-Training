@@ -7,7 +7,7 @@
         private $peso = '70kg';
 
         public function crescer(){
-            $this->comer();                                     // qdo quero trabalhar com o método dentro da classe
+            $this->comer();                                     // qdo quero trabalhar com o método dentro da classe uso $this
             echo 'Estou Crescendo';
         }
         
